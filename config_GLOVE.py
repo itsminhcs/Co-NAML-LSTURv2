@@ -41,7 +41,7 @@ class BaseConfig:
     num_categories = 1 + 274
     num_entities = 1 + 12957
     num_users = 1 + 50000
-    word_embedding_dim = 768  # Updated for DistilBERT
+    word_embedding_dim = 300  # Updated for DistilBERT
     category_embedding_dim = 100
     # Modify the following only if you use another dataset
     entity_embedding_dim = 100
