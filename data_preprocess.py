@@ -324,7 +324,7 @@ def transform_entity_embedding(source, target, entity2int_path):
 
 if __name__ == "__main__":
     train_dir = "./data/train"
-    val_dir = "./data/val"
+    val_dir = "./data/test"
     test_dir = "./data/test"
 
     print("Process data for training")
@@ -383,3 +383,4 @@ if __name__ == "__main__":
         path.join(train_dir, "entity2int.tsv"),
         mode="test",
     )
+
