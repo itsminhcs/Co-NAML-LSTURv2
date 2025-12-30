@@ -350,10 +350,10 @@ if __name__ == "__main__":
     )
 
     print("Generate word embedding")
-    if config.word_embedding_dim == 300:
-        emb_dir = "./data/glove/glove.840B.300d.txt"
-    if config.word_embedding_dim == 100:
-        emb_dir = "./data/glove/glove.6B.100d.txt"
+    # if config.word_embedding_dim == 300:
+    emb_dir = "./data/glove/glove.840B.300d.txt"
+    # if config.word_embedding_dim == 100:
+        # emb_dir = "./data/glove/glove.6B.100d.txt"
     print("Embedding dir:", emb_dir)
     generate_word_embedding(
         emb_dir,
@@ -391,3 +391,4 @@ if __name__ == "__main__":
         path.join(train_dir, "entity2int.tsv"),
         mode="test",
     )
+
