@@ -372,15 +372,16 @@ if __name__ == "__main__":
         mode="test",
     )
 
-    print("\nProcess data for test")
+    # print("\nProcess data for test")
 
-    print("Parse news")
-    parse_news(
-        path.join(test_dir, "news.tsv"),
-        path.join(test_dir, "news_parsed.tsv"),
-        path.join(train_dir, "category2int.tsv"),
-        path.join(train_dir, "word2int.tsv"),
-        path.join(train_dir, "entity2int.tsv"),
-        mode="test",
-    )
+    # print("Parse news")
+    # parse_news(
+    #     path.join(test_dir, "news.tsv"),
+    #     path.join(test_dir, "news_parsed.tsv"),
+    #     path.join(train_dir, "category2int.tsv"),
+    #     path.join(train_dir, "word2int.tsv"),
+    #     path.join(train_dir, "entity2int.tsv"),
+    #     mode="test",
+    # )
+
 
